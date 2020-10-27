@@ -15,4 +15,6 @@ snugdock.linuxgccrelease
 # Score files store the energy score with which we compare the 200 poses found by ROSETTA.
 /-out:file:scorefile score.$SLURM_ARRAY_TASK_ID.sc 
 # Output new binding poses
-/-out:path:all $SLURM_ARRAY_TASK_ID @flags
+/-out:path:all $SLURM_ARRAY_TASK_ID 
+# Other options specified in file "flags".
+@flags
