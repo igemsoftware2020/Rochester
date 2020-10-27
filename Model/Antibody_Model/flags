@@ -1,0 +1,27 @@
+### SnugDock options.
+-out:pdb_gz
+# Make 200 new poses.
+-nstruct 200
+
+### Docking
+# Specify antibody chain (LH) and biomarker chain (A) in PBD files.
+-partners LH_A
+# Change the orientation of the biomarker for each new pose.
+-randomize2
+# Spin the antibody for each new pose.
+-spin
+# Below are other options recommended by ROSETTA.
+-dock_pert 3 8
+-h3_filter false
+
+### KIC loop
+-kic_rama2b
+-loops:ramp_fa_rep
+-loops:ramp_rama
+-kic_omega_sampling
+-allow_omega_move true
+-loops:refine_outer_cycles 3
+-loops:max_inner_cycles 80
+
+-ex1
+-ex2aro
