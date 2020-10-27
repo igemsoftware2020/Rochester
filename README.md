@@ -29,8 +29,8 @@ We integrated our Clinical Predictive Model into a web UI where users can fill o
 
 ## Hardware
 ### LFA imaging station Light
-Code to for the LFA imaging station, controlling an LED using a potentiometer
+Arduino code to for the LFA imaging station, controlling an LED using a potentiometer
 
 ### Centrifuge control
-Code to control the centrifuge's speed using a keypad
+Arduino code to control the centrifuge's speed using a keypad with the connection to the ESC controller and LCD screen 
 
