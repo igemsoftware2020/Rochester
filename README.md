@@ -26,3 +26,11 @@ To support future iGEM teams in the Diagnostics Track, we created a software col
 
 ### Endometriosis Risk Calculator
 We integrated our Clinical Predictive Model into a web UI where users can fill out an anonymous survey, and find out their risk of endometriosis from their answers.
+
+## Hardware
+### LFA imaging station Light
+Code to for the LFA imaging station, controlling an LED using a potentiometer
+
+### Centrifuge control
+Code to control the centrifuge's speed using a keypad
+
