@@ -25,7 +25,7 @@ To develop endometriosis diagnostics, our team designed an estrogen sensing circ
 To support future iGEM teams in the Diagnostics Track, we created a software collecting biomarkers that have been used in iGEM. Users can contribute to the database or search for potential biomarkers of the disease they want to study.
 
 ### Endometriosis Risk Calculator
-We integrated our Clinical Predictive Model into a web UI where users can fill out an anonymous survey, and find out their risk of endometriosis from their answers.
+To promote endometriosis diagnosis, we integrated our Clinical Predictive Model into a web UI where users can fill out an anonymous survey, and find out their risk of endometriosis from their answers.
 
 ## Hardware
 ### LFA Imaging Station
