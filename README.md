@@ -1,5 +1,5 @@
 # Rochester
-Our Rochester team has five modeling projects and two software projects for iGEM 2020.
+Our Rochester team has five modeling projects, two software projects, and four hardware projects for iGEM 2020.
 To learn more about our project, see our wiki: https://2020.igem.org/Team:Rochester.
 
 ## Model
@@ -28,9 +28,9 @@ To support future iGEM teams in the Diagnostics Track, we created a software col
 We integrated our Clinical Predictive Model into a web UI where users can fill out an anonymous survey, and find out their risk of endometriosis from their answers.
 
 ## Hardware
-### LFA imaging station Light
-Arduino code to for the LFA imaging station, controlling an LED using a potentiometer
+### LFA Imaging Station
+In support of LFA development, we built a smartphone-based platform to image and quantify the signal of our LFA. We used Arduino to control an LED in this platform using a potentiometer.
 
-### Centrifuge control
-Arduino code to control the centrifuge's speed using a keypad with the connection to the ESC controller and LCD screen 
+### DIY Centrifuge
+In an effort to make our diagnostics accessible to clinics without a lab, we built a DIY centrifuge to prepare sample for our LFA. We used Arduino to control the centrifuge's speed using a keypad with the connection to the ESC controller and LCD screen.
 
